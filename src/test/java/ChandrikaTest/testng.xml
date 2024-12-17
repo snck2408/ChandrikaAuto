@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="testing">
+	<groups>
+		<run>
+			<include name="master" />
+			
+		</run>
+	</groups>
+	<test name="tes">
+		<classes>
+			<class name="ChandrikaTest.javascriptexec" />
+			<class name="ChandrikaTest.scrnshot" />
+		</classes>
+
+	</test>
+
+</suite>
